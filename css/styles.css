@@ -1,6 +1,9 @@
-.player-console {
+.play-area {
   display: none;
-  background-color: green;
+  }
+
+.pig-dice {
+  display:none;
 }
 
 .jumbotron {
@@ -8,13 +11,23 @@
 }
 
 #play1 {
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 #play2 {
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 #star{
-  padding-right: 50px;
+  margin-left: 45%;
+}
+
+#gamer2 {
+  border-width: medium;
+  border: red solid;
+}
+
+#gamer1 {
+  border-width: medium;
+  border: blue solid;
 }
