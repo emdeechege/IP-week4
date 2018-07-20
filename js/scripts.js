@@ -54,7 +54,7 @@ $(document).ready(function() {
     player1 = new Player();
     player2 = new Player();
     $(".play-area").show();
-    $(".pig-dice").hide();
+    $(".pig-dice-container").hide();
 
     var player1Name = $(".player1Name").val();
     $("#player1Name").text(player1Name);
