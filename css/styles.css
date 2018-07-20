@@ -1,0 +1,11 @@
+.player-console {
+  display: none;
+  background-color: green;
+}
+
+.jumbotron {
+  background-color: coral;
+}
+.col-md-6{
+  border: red solid;
+}
