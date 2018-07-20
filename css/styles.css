@@ -6,6 +6,8 @@
 .jumbotron {
   background-color: coral;
 }
-.col-md-6{
-  border: red solid;
+
+#play1 {
+  border-radius: 2px;
+  
 }
