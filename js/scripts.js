@@ -17,7 +17,7 @@ function Player(turn) {
 Player.prototype.rollone = function() {
   if (this.roll === 1) {
     this.spinScore = 0;
-    alert("Ooooops " + this.playerName + " ,you rolled 1,your turn is over!")
+    alert("Ooooops " + this.playerName + "\nYou rolled 1,your turn is over!")
   } else {
     this.spinScore += this.roll;
   }
@@ -27,12 +27,12 @@ Player.prototype.hold = function() {
   this.totalScore += this.spinScore;
   this.spinScore = 0;
   //triggers change of turn.changeTurn()
-  alert(this.playerName + "  ,next players turn");
+  alert(this.playerName + "\n next players turn");
 }
 //Winner @50 points
 Player.prototype.winnerVerify = function() {
   if (this.totalScore >= 50) {
-    alert(this.playerName + " Congrats You are the real champ!");
+    alert(this.playerName + "\n  Congrats You are the real champ!");
   }
 }
 
@@ -69,7 +69,8 @@ $(document).ready(function() {
 
   $("button#new-game").click(function(event) {
     $(".play-area").hide();
-    $(".pig-dice").show();
+    $(".pig-dice-container").show();
+    resetFields();
   });
 
   $("button#player1-roll").click(function(event) {

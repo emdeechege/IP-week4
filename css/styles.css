@@ -27,11 +27,15 @@ opacity:0.6;
 #gamer2 {
   border-width: medium;
   border: red solid;
+  background-color: #ffd389;
+  opacity:0.6;
 }
 
 #gamer1 {
   border-width: medium;
   border: blue solid;
+  background-color: 	#ffd389;
+    opacity:0.6;
 }
 
 body {
