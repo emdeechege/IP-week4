@@ -17,7 +17,7 @@ function Player(turn) {
 Player.prototype.rollone = function() {
   if (this.roll === 1) {
     this.spinScore = 0;
-    alert("Sorry " + this.playerName + "  ,you rolled 1,your turn is over!")
+    alert("Ooooops " + this.playerName + " ,you rolled 1,your turn is over!")
   } else {
     this.spinScore += this.roll;
   }
@@ -32,7 +32,7 @@ Player.prototype.hold = function() {
 //Winner @50 points
 Player.prototype.winnerVerify = function() {
   if (this.totalScore >= 50) {
-    alert(this.playerName + "Congrats You are the real champ!");
+    alert(this.playerName + " Congrats You are the real champ!");
   }
 }
 

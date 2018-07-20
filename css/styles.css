@@ -2,12 +2,14 @@
   display: none;
   }
 
-.pig-dice {
-  display:none;
+.pig-dice-container{
+  background-color:#ff9933;
+  opacity:0.6;
 }
 
 .jumbotron {
-  background-color: coral;
+background-color: #ffbd06;
+opacity:0.6;
 }
 
 #play1 {
@@ -30,4 +32,14 @@
 #gamer1 {
   border-width: medium;
   border: blue solid;
+}
+
+body {
+  background-image: url("../img/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p#key {
+  font-style: italic; color:black;
+  font-size: 30px;
 }

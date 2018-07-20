@@ -19,12 +19,12 @@
     <div class="jumbotron" align="center">
       <h1>Let's play Pig Dice!</h1>
       <p>Pig Dice is played with two six-sided dice and has following rules:</p>
-      Roll as many times. If none of a dice rolls is a 1, then total is added for the current turn score. If a single 1 is rolled, then turn ends and score for that turn is zero. The game is won when one player hits 50.
+      <p>Roll as many times. If none of a dice rolls is a 1, then total is added for the current turn score. If a single 1 is rolled, then turn ends and score for that turn is zero. The game is won when one player hits 50.
       </p>
     </div>
     <div class="pig-dice-container">
       <div class="row">
-        <div class="col-md-6" id="play1">
+        <div class="col-md-5" id="play1">
           <form id="player-1">
             <div class="form-group">
               <label for="player1Name">Player 1 Name:</label>
@@ -42,7 +42,7 @@
         </div>
       </div>
       <div class="row" id="star">
-        <button id="start" class="btn-info btn">Start</button>
+        <button id="start" class="btn-info btn">Let's Play! :)</button>
       </div>
     </div>
 
@@ -56,16 +56,16 @@
           <button id="player1-roll" class="btn-success btn">Play!</button>
           <button id="player1-hold" class="btn-success btn">Hold</button>
           <h2>Dice Roll: <span id="die-roll-1"></span></h2>
-          <p>Round Total: <span id="round-total-1"></span></p>
-          <p>Total Score: <span id="total-score-1"></span></p>
+          <p id="key">Round Total: <span id="round-total-1"></span></p>
+          <p id="key">Total Score: <span id="total-score-1"></span></p>
         </div>
         <div class="col-md-6" id="gamer2">
           <h2>Player 2: <span id = "player2Name"><span></h2>
           <button id="player2-roll" class="btn-success btn">Play!</button>
           <button id="player2-hold" class="btn-success btn">Hold</button>
           <h2>Dice Roll: <span id="die-roll-2"></span></h2>
-          <p>Round Total: <span id="round-total-2"></span></p>
-          <p>Total Score: <span id="total-score-2"></span></p>
+          <p id="key">Round Total: <span id="round-total-2"></span></p>
+          <p id="key">Total Score: <span id="total-score-2"></span></p>
         </div>
       </div>
     </div>
