@@ -8,6 +8,13 @@
 }
 
 #play1 {
-  border-radius: 2px;
-  
+  padding-right: 5px;
+}
+
+#play2 {
+  padding-left: 5px;
+}
+
+#star{
+  padding-right: 50px;
 }
