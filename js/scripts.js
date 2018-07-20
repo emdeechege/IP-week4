@@ -30,3 +30,21 @@ Player.prototype.hold = function() {
   //triggers change of turn.changeTurn()
   alert(this.playerName + ", turn over, next player");
 }
+//Winner @50 points
+Player.prototype.winnerVerify = function() {
+  if (this.totalScore >= 50) {
+    alert(this.playerName + "You are the winner!");
+  }
+}
+
+Player.prototype.newGame= function() {
+  this.roll=0;
+  this.tempScore= 0;
+  this.totalScore= 0;
+  this.PlayerName = "";
+}
+
+var clearValues= function() {
+  $(".player1Name").val("");
+  $(".player2Name").val("");
+}
